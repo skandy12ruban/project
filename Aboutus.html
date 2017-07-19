@@ -1,0 +1,168 @@
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/css/mdb.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/animate.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/js/mdb.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+
+.line { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-style: solid;
+	border-color: black;
+    border-width: 03px;
+	width: 300px;
+} 
+</style>
+</head>
+<body style="background: url(assets/img/aboutus.png) no-repeat 	 fixed; 
+-webkit-background-size: 100% 100%;
+-moz-background-size: 100% 100%;
+-o-background-size: 100% 100%;
+-background-size: 100% 100%">
+<nav class="navbar navbar-inverse navbar-fixed-top" id="menu" style="color:#d6a551">
+  <div class="container-fluid">
+    <div class="navbar-header">
+	   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#" style="font-size:30px;margin-left:40px;color:#d6a551">CompanyName</a>
+    </div>
+	<div class="collapse navbar-collapse" id="Navbar">
+    <ul class="nav navbar-nav navbar-right" style="font-size:20px;margin-right:40px">
+	  <li><a href="index.html" style="color:#d6a551;">Home</a></li>
+      <li class="active"><a href="Aboutus.html">About us</a></li>
+      <li><a href="programmes.html" style="color:#d6a551">Programmes</a></li>
+	  <li><a href="gallery.html" style="color:#d6a551">Gallery</a></li>
+      <li><a href="contact-us.php" style="color:#d6a551">Contact Us</a></li>
+	</ul>
+	</div>
+  </div>
+</nav>-
+<br>
+<br>
+<div style="padding-top:20px">
+<h1 align="center">About Us</h1>
+<hr class="line"> 
+<h3 align="center">Description</h3>
+</div>
+<br>
+<br>
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+<img src="assets/img/icon1.png" height="75px" width="75px"/>
+<h3>TITLE</h3>
+<hr style="border-width: 03px;
+color: #135d6b;
+border-color: #135d6b;">
+<h4>Breif description, Click button to see more</p>
+<button class="btn" style="background-color: #135d6b; color:white" data-toggle="modal" data-target="#Modal1">SEE MORE</button>
+<hr style="border-width: 03px; color: #135d6b;border-color: #135d6b;">
+</div>
+<div class="col-md-4">
+<img src="assets/img/icon2.png" height="75px" width="75px"/>
+<h3>TITLE</h3>
+<hr style="border-width: 03px; color: #135d6b;border-color: #135d6b;">
+<h4>Breif description, Click button to see more</p>
+<button class="btn" style="background-color: #135d6b; color:white" data-toggle="modal" data-target="#Modal2">SEE MORE</button>
+<hr style="border-width: 03px; color: #135d6b;border-color: #135d6b;">
+</div>
+<div class="col-md-4">
+<img src="assets/img/icon3.png" height="75px" width="75px"/>
+<h3>TITLE</h3>
+<hr style="border-width: 03px; 
+color: #135d6b;
+border-color: #135d6b;">
+<h4>Breif description, Click button to see more</p>
+<button class="btn" style="background-color: #135d6b; color:white" data-toggle="modal" data-target="#Modal3">SEE MORE</button>
+<hr style="border-width: 03px; color: #135d6b;border-color: #135d6b;">
+<br/>
+</div>
+</div>
+</div>
+<!----- ------->
+<div id="Modal1" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header" style="background-color:black">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			
+        <h4 style="color:#d6a551"><img src="assets/img/icon1.png" height="50px" width="50px"/>&nbsp;TITLE</h4>
+      </div>
+      <div class="modal-body">
+        <p>More Description</p>
+      </div>
+      <div class="modal-footer" style="background-color:black">
+        <button type="button" class="btn" style="background-color: #000;color: #d6a551;border-color: #d6a551;" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!----- -------->
+
+<!----- ------->
+<div id="Modal2" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header" style="background-color:black">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			
+        <h4 style="color:#d6a551"><img src="assets/img/icon2.png" height="50px" width="50px"/>&nbsp;TITLE</h4>
+      </div>
+      <div class="modal-body">
+        <p>More Description</p>
+      </div>
+      <div class="modal-footer" style="background-color:black">
+        <button type="button" class="btn" style="background-color: #000;color: #d6a551;border-color: #d6a551;" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!----- -------->
+
+<!----- ------->
+<div id="Modal3" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header" style="background-color:black">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			
+        <h4 style="color:#d6a551"><img src="assets/img/icon3.png" height="50px" width="50px"/>&nbsp;TITLE</h4>
+      </div>
+      <div class="modal-body">
+        <p>More Description</p>
+      </div>
+      <div class="modal-footer" style="background-color:black">
+        <button type="button" class="btn" style="background-color: #000;color: #d6a551;border-color: #d6a551;" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!----- -------->
+ <!---Footer starts from here -->
+ <footer class="footer navbar-inverse navbar-fixed-bottom">
+      <div class="container">
+	  <h4 style="color:#d6a551">&copy, 2017, All copyrights reserved <h4>
+      </div>
+    </footer>
+   </body>
+</html>
